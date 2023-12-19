@@ -1,30 +1,58 @@
+import { LuLayoutDashboard, LuUser, LuComputer , LuProjector, } from 'react-icons/lu'
+import {FaList, FaArrowCircleLeft, FaChartLine, FaFile} from 'react-icons/fa'
+
 export const sidebarData = [
     {
-        title: 'Dashboard'
+        title: 'dashboard',
+        icon: <LuLayoutDashboard size={20} />,
+        path: '/dashboard'
+    
 
     },
 
     {
-        title: 'Student info system'
+        title: 'Files',
+        icon: <FaFile />,
+        path: '/files'
     },
 
     {
-        title: 'student mngt system'
+        title: 'Members',
+        icon: <LuUser />,
+        path: '/employees'
     },
 
     {
-        title: 'Attendance mgnt'
+        title: 'projects',
+        icon: <LuProjector />,
+        path: '/projects'
     },
 
     {
-        title: 'Resource mgnt'
+        title: 'reports',
+        icon: <FaChartLine />,
+        path: "/reports"
     },
 
     {
-        title: 'Payment mgnt'
+        title: 'Tasks',
+        icon: <FaList />,
+        path: '/tasks'
     },
 
     {
-        title: 'Finance reporting'
-    }
+        title: 'Monotoring',
+        icon: <LuComputer />,
+        path: '/monitoring'
+    },
+
+    {
+        title: 'sign out',
+        icon: <FaArrowCircleLeft />,
+        path: '/signout'
+    },
+
+  
+
+  
 ]

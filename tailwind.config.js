@@ -4,8 +4,13 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "Roboto": 'Roboto, sans-serif'
-      }
+        "Roboto": 'Roboto, sans-serif',
+        "Poppins": "Poppins, sans-serif"
+      },
+
+      colors: {
+        'regal-blue': '#243c5a',
+      },
     },
   },
   plugins: [],

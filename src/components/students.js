@@ -1,9 +1,9 @@
 const Students = () => {
     const tableSpacing = "py-4 px-2"
     return (
-        <div>
-            <h3 className=" font-extrabold text-2xl">Students</h3>
-            <table className="border-collapse w-full mt-5 text-sm text-left text-gray-500 border rounded-md dark:text-gray-700 ">
+        <div className=" h-screen">
+            <h3 className=" font-extrabold text-2xl text-green-500">Students</h3>
+            <table className="border-collapse w-full mt-5 text-sm text-left m-5 border border-gray-600  rounded-md text-white ">
                 
                 <thead>
                     <tr className="border px-2">
